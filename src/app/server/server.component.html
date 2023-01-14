@@ -1,0 +1,4 @@
+<hr>
+<p [ngStyle]="{'background-color':getColor()}"
+[ngClass]="{online: serverStatus === 'online'}"> The server ID is {{serverID}} and status is {{ getServerStatus() }}.</p>
+<!--in string interpolation you can add a variable or you can add a method. -->
